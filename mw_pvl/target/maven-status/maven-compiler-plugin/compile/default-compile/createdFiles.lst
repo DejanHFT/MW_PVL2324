@@ -1,0 +1,5 @@
+com\dejan_mw2324\mw_pvl\MwPvlApplication.class
+com\dejan_mw2324\mw_pvl\CorsConfig.class
+com\dejan_mw2324\mw_pvl\TaskRepository.class
+com\dejan_mw2324\mw_pvl\TaskController.class
+com\dejan_mw2324\mw_pvl\Task.class
