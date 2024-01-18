@@ -2,24 +2,25 @@
 # How to get this running?
 - clone repository 
 - switch into the root directory of cloned repo (where docker-compose.yml is present -> MW_PVL2324)
-- start database, backend and frontent with "docker-compose up"
+- start database, backend and frontend with "docker-compose up"
 
 # What is the application doing?
 -Very simple application to add, edit, delete and look at tasks(that got created) 
 
-# Explanation of the Frontent/UI
+# Explanation of the Frontend/UI
 ![UI](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/15f007e1-b9eb-41e8-9b51-bdbbed42a37b)
 - This is the view you see when opening localhost:3000 for the first time
 - -> A form to add further tasks
 - -> Below already added tasks can be seen 
 - -> Clicking delete next to a task deletes the corresponding task
 - -> Clicking Edit leads us to this form here:
-- 
+  
 ![UI-Edit](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/006a16b8-b9ff-4dfb-b451-dac3dece4977)
 - -> user can see the details of the task and the form above can be adjusted as wanted
 - -> the new values then override the existing tasks old values:
-- 
-![UI-Edited](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/e3ebdd33-dea9-4686-8d99-f880d952fe12)
+  
+![UI-Edited3](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/929658d0-128b-4927-87d9-79fbb94e0af6)
+
 - -> Same task but now with new values 
 
 - UI is not really pretty and intuitive - sorry for that - hopefully the "tutorial" can help you out a little bit
