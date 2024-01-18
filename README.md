@@ -5,7 +5,8 @@
 - start database, backend and frontend with "docker-compose up"
 
 # Hint: 
-- I had a logical error in my first upload and did the docker-compose.yml like this: 
+- I had a logical error in my first upload and did the docker-compose.yml like this:
+  
 /*
 version: '3'
 
@@ -20,6 +21,7 @@ services:
 - This wouldnt work on your machine since the image is only locally saved, not on the Hub and if it would be I would need to specify the image more
 
 - -> Thats why adding the target folder was neccessary and adjusting the docker-compose.yml
+  
 /*
 services:
   backend:
