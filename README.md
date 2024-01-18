@@ -13,10 +13,12 @@
 - -> A form to add further tasks
 - -> Below already added tasks can be seen 
 - -> Clicking delete next to a task deletes the corresponding task
-- -> Clicking Edit leads us to this form here: 
+- -> Clicking Edit leads us to this form here:
+- 
 ![UI-Edit](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/006a16b8-b9ff-4dfb-b451-dac3dece4977)
 - -> user can see the details of the task and the form above can be adjusted as wanted
-- -> the new values then override the existing tasks old values: 
+- -> the new values then override the existing tasks old values:
+- 
 ![UI-Edited](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/e3ebdd33-dea9-4686-8d99-f880d952fe12)
 - -> Same task but now with new values 
 
@@ -32,4 +34,4 @@
 
 ![UI_DEMO](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/f51da13d-a441-4f52-8e97-72fe5d2c6f97)
 ![accessing_8080](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/4f4dc980-dd1b-4b3b-b048-c56e790e2ff9)
--how changes on the frontent get reflected in the backend/on localhost:8080
+- how changes on the frontent get reflected in the backend/on localhost:8080
