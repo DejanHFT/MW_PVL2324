@@ -35,7 +35,7 @@
 
 ![UI_DEMO](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/f51da13d-a441-4f52-8e97-72fe5d2c6f97)
 ![accessing_8080](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/4f4dc980-dd1b-4b3b-b048-c56e790e2ff9)
-- how changes on the frontent get reflected in the backend/on localhost:8080
+- how changes on the frontend get reflected in the backend/on localhost:8080
 
 
 # Hint: 
