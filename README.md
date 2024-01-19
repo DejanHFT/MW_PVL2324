@@ -4,35 +4,6 @@
 - switch into the root directory of cloned repo (where docker-compose.yml is present -> MW_PVL2324)
 - start database, backend and frontend with "docker-compose up"
 
-# Hint: 
-- I had a logical error in my first upload and did the docker-compose.yml like this:
-  
-/*
-version: '3'
-
-services:
-  backend:
-    image: your-backend-image:latest
-    ports:
-      - "8080:8080"
-    environment:
-    ...
-*/
-- This wouldnt work on your machine since the image is only locally saved, not on the Hub and if it would be I would need to specify the image more
-
-- -> Thats why adding the target folder was neccessary and adjusting the docker-compose.yml
-  
-/*
-services:
-  backend:
-    build:
-      context: ./mw_pvl
-    ports:
-...
-*/
-- still works as described above (or now works as described before)
-
-    
 # What is the application doing?
 -Very simple application to add, edit, delete and look at tasks(that got created) 
 
@@ -65,3 +36,33 @@ services:
 ![UI_DEMO](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/f51da13d-a441-4f52-8e97-72fe5d2c6f97)
 ![accessing_8080](https://github.com/DejanHFT/MW_PVL2324/assets/133747317/4f4dc980-dd1b-4b3b-b048-c56e790e2ff9)
 - how changes on the frontent get reflected in the backend/on localhost:8080
+
+
+# Hint: 
+- I had a logical error in my first upload and did the docker-compose.yml like this:
+  
+/*
+version: '3'
+
+services:
+  backend:
+    image: your-backend-image:latest
+    ports:
+      - "8080:8080"
+    environment:
+    ...
+*/
+- This wouldnt work on your machine since the image is only locally saved, not on the Hub and if it would be I would need to specify the image more
+
+- -> Thats why adding the target folder was neccessary and adjusting the docker-compose.yml
+  
+/*
+services:
+  backend:
+    build:
+      context: ./mw_pvl
+    ports:
+...
+*/
+- still works as described above (or now works as described before)
+    
